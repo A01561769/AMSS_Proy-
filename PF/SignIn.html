@@ -10,7 +10,6 @@
 	<!-- INICIO LIGA A style.css -->
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<!-- FIN LIGA A style.css -->
-
 	<title>SignIn</title>
 </head>
 <body style="background-color: #2d2a31">
@@ -21,57 +20,72 @@
 
 	<!-- INICIO BARRA SUPERIOR -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-warning">
-		<a class="navbar-brand logo" href="#">buzzr</a>
+
+		<!-- TEXTO DEL "LOGO" -->
+		<a class="navbar-brand logo" href="LogIn.html">buzzr</a>
 	</nav>
 	<!-- FIN BARRA SUPERIOR -->
 
 	<!-- INICIO CARRUSEL -->
 	<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-		<ol class="carousel-indicators"></ol>
+		<!-- PERMITE MOSTRAR EL CARRUSEL -->
 		<div class="carousel-inner">
 			<div class="carousel-item active">
+				<!-- DIRECCION DE IMAGEN 1 A MOSTRAR -->
 				<img src="Assets/Images/M1.1.png" class="d-block w-100" alt="...">
+
+				<!-- TITULO DEL FORMULARIO -->
 				<div class="carousel-caption d-none d-md-block">
+					<div class="logoIn">
+						<h1>INGRESA TUS DATOS</h1>
+					</div>
+
 					<!-- INICIO FORMULARIO DE REGISTRO -->
-					<div class="container" style="color: #fbd02c; padding: 20px">
-						<div class="row">
-							<div class="col"></div>
-							<div class="col-lg-6">
-								<div class="form-group">
-									<label for="exampleInputEmail1">Nombre</label>
-									<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-								</div>
-								<div class="form-group">
-									<label for="exampleInputEmail1">Apellidos</label>
-									<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-								</div>
-								<div class="form-group">
-									<label for="inputState">Género musical</label>
-									<select id="inputState" class="form-control">
-										<option selected>Sin especificar</option>
-										<option>Rock</option>
-										<option>Cumbia</option>
-										<option>Banda Norteña</option>
-										<option>Electrónica</option>
-										<option>Indie</option>
-										<option>Instrumental</option>
-										<option>Metal</option>
-										<option>Flamenco</option>
-										<option>Clásica</option>
-									</select>
-								</div>
-								<div class="form-group">
-									<label for="exampleInputEmail1">Dirección de correo</label>
-									<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-								</div>
-								<div class="form-group">
-									<label for="exampleInputPassword1">Contraseña</label>
-									<input type="password" class="form-control" id="exampleInputPassword1">
-								</div>
-								<button type="button" class="btn search ">Registrar</button>
-							</div>
-							<div class="col"></div>
+					<div class="container texto" style="color: #fbd02c; padding: 20px">
+						
+						<!-- ESPACIO PARA EL NOMBRE -->
+						<div class="form-group">
+							<label for="exampleInputEmail1">Nombre</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 						</div>
+						
+						<!-- ESPACIO PARA LOS APELLIDOS -->
+						<div class="form-group">
+							<label for="exampleInputEmail1">Apellidos</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+						</div>
+						
+						<!-- ESPACIO PARA EL GENERO -->
+						<div class="form-group">
+							<label for="inputState">Género musical</label>
+							<select id="inputState" class="form-control">
+								<option selected>Sin especificar</option>
+								<option>Rock</option>
+								<option>Cumbia</option>
+								<option>Banda Norteña</option>
+								<option>Electrónica</option>
+								<option>Indie</option>
+								<option>Instrumental</option>
+								<option>Metal</option>
+								<option>Flamenco</option>
+								<option>Clásica</option>
+							</select>
+						</div>
+
+						<!-- ESPACIO PARA EL CORREO -->
+						<div class="form-group">
+							<label for="exampleInputEmail1">Dirección de correo</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+						</div>
+
+						<!-- ESPACIO PARA LA CONTRASEÑA -->
+						<div class="form-group">
+							<label for="exampleInputPassword1">Contraseña</label>
+							<input type="password" class="form-control" id="exampleInputPassword1">
+						</div>
+
+						<!-- BOTON DE REGISTRO -->
+						<button type="button" class="btn search ">Registrar</button>
 					</div>
 					<!-- FIN FORMULARIO DE REGISTRO -->
 				</div>

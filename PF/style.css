@@ -14,6 +14,11 @@
     color:#ffc107;
 }
 
+.searchbox2{
+    background-color:#2d2a31;
+    color:#ffc107;
+}
+
 .profile{
 	height: 100vh;
     width: 50vw;
@@ -25,6 +30,7 @@
 .search{
 	background-color: #2d2a31;
 	color:#ffc107;
+	border: 0px;
 }
 
 .logo{
@@ -52,6 +58,22 @@
 
 .footer{
 	background-color: #ffc107;
+}
+
+.line{
+	background-color: #ffc107;
+	height: 20px;
+}
+
+.box{
+	border-radius: 25px;
+	padding: 50px;
+	margin: 20px;
+}
+
+.box2{
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 /* width */

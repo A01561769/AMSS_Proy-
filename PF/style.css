@@ -3,6 +3,13 @@
 	font-family: mont-sb;
 }
 
+.back{
+	background-color: #2d2a31;
+}
+
+.color{
+	color: #ffc107;
+}
 .wrap{
 	display:flex;
 }

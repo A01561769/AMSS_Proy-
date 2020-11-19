@@ -7,6 +7,13 @@
 	background-color: #2d2a31;
 }
 
+.centerText{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 .color{
 	color: #ffc107;
 }
@@ -14,6 +21,20 @@
 .container{
 	color: #fbd02c; 
 	padding: 20px;
+}
+
+.imContainer {
+	position: relative;
+	text-align: center;
+	color: #fbd02c;
+}
+
+.imWidth{
+	width: 100%;
+}
+
+.formWidth{
+	width: 60%;
 }
 
 .wrap{
